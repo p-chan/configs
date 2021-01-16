@@ -1,0 +1,19 @@
+{
+  "name": "@p-chan/configs",
+  "version": "1.0.0",
+  "description": "Shareable configs for @p-chan",
+  "license": "MIT",
+  "author": "P-Chan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-chan/configs.git"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
