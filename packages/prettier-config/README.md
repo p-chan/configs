@@ -1,6 +1,6 @@
 # prettier-config
 
-> Shared Prettier config for [@p-chan](https://github.com/p-chan)
+> Shareable Prettier config for [@p-chan](https://github.com/p-chan)
 
 ## Install
 
@@ -10,21 +10,22 @@ $ npm install @p-chan/prettier-config --save-dev
 
 ## Usage
 
+Edit `.prettierrc`.
+
+```json
+"@p-chan/prettier-config"
+```
+
+## Override
+
 Edit `.prettierrc.js`.
 
 ```js
 module.exports = {
   ...require('@p-chan/prettier-config'),
-}
-```
-
-## Override
-
-```js
-module.exports = {
-  ...require('@p-chan/prettier-config'),
-  singleQuote: false,
+  printWidth: 80,
   semi: true,
+  singleQuote: false,
 }
 ```
 
