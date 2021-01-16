@@ -1,5 +1,10 @@
 {
   "version": "independent",
   "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "message": "chore: Publish package(s)"
+    }
+  },
   "useWorkspace": true
 }
