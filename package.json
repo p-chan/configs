@@ -8,7 +8,11 @@
     "type": "git",
     "url": "https://github.com/p-chan/configs.git"
   },
+  "scripts": {
+    "publish": "dotenv lerna publish --conventional-commits --create-release github"
+  },
   "devDependencies": {
+    "dotenv-cli": "^4.0.0",
     "lerna": "^3.22.1",
     "prettier": "^2.2.1"
   },
