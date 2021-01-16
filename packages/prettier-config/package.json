@@ -1,6 +1,6 @@
 {
   "name": "@p-chan/prettier-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Shareable Prettier config for @p-chan",
   "keywords": [
     "prettier",
