@@ -1,11 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "es2019",
-    "module": "commonjs",
-    "strict": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
-  }
+  "extends": "./recommended.json"
 }
