@@ -1,19 +1,19 @@
 {
   "name": "@p-chan/tsconfig",
   "version": "1.1.0",
-  "description": "Shared TypeScript config for @p-chan",
+  "description": "Shareable TypeScript config for @p-chan",
   "keywords": [
     "typescript",
     "tsconfig"
   ],
-  "homepage": "https://github.com/p-chan/tsconfig#readme",
-  "bugs": "https://github.com/p-chan/tsconfig/issues",
+  "homepage": "https://github.com/p-chan/packages/tsconfig#readme",
+  "bugs": "https://github.com/p-chan/configs/issues",
   "license": "MIT",
   "author": "P-Chan",
   "main": "tsconfig.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/p-chan/tsconfig.git"
+    "url": "https://github.com/p-chan/configs.git"
   },
   "peerDependencies": {
     "typescript": "*"
