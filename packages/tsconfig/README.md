@@ -1,6 +1,6 @@
 # tsconfig
 
-> Shared TypeScript config for [@p-chan](https://github.com/p-chan)
+> Shareable TypeScript config for [@p-chan](https://github.com/p-chan)
 
 ## Install
 
@@ -14,7 +14,20 @@ Edit `tsconfig.json`.
 
 ```jsonc
 {
-  "extends": "@p-chan/tsconfig"
+  // Default (use Recommended)
+  "extends": "@p-chan/tsconfig",
+
+  // Recommended
+  "extends": "@p-chan/tsconfig/recommended.json",
+
+  // for Node.js v12
+  "extends": "@p-chan/tsconfig/node12.json",
+
+  // for Node.js v14
+  "extends": "@p-chan/tsconfig/node14.json",
+
+  // for Next.js
+  "extends": "@p-chan/tsconfig/next.json"
 }
 ```
 
