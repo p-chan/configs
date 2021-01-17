@@ -15,10 +15,7 @@
     "type": "git",
     "url": "https://github.com/p-chan/tsconfig.git"
   },
-  "devDependencies": {
-    "typescript": "^3.0.0"
-  },
   "peerDependencies": {
-    "typescript": "^3.0.0"
+    "typescript": "*"
   }
 }
